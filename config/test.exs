@@ -15,5 +15,5 @@ config :geokobe, Geokobe.Repo,
   username: "postgres",
   password: "postgres",
   database: "geokobe_test",
-  hostname: "localhost",
+  hostname: "db",
   pool: Ecto.Adapters.SQL.Sandbox
