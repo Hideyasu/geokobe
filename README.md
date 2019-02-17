@@ -18,3 +18,13 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+## ざっくりとしたdockerの使い方
+Makefileでコマンドを用意しているので以下のコマンドを打ってください。
+
+### 一番最初の起動
+`$ make up`
+### dockerの中に入る(sshみたいなもの)
+`$ make phxsh`
+### logを確認する(tail -fみたいなもの)
+`$ make phxlogf`
